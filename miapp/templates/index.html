@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+{% load static %}
+
+
+<html lang="en" class="no-js">
+<head>
+    <link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="{% static 'img/fav.png' %}">
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Santa Delish</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+        <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="{% static 'css/linearicons.css' %}">
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+        <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">                  
+        <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    </head>
+    <body>
+
+          <header id="header" id="home">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
+                            <ul>
+                                <li>
+                                    Monte Vera
+                                </li>
+                                <li>
+                                    Argentina
+                                </li>
+                                <li>
+                                    <a href="tel:(342) 6131 182">(342) 6131 182</a>
+                                </li>                                   
+                            </ul>
+                        </div>
+                    </div>                                              
+                </div>
+            </div>                
+            <div class="container">
+                <div class="row align-items-center justify-content-between d-flex">
+                  <div id="logo">
+                    <a href="{% url 'inicio' %}"><img src="{% static 'img/logo.png' %}" alt="" title="" /></a>
+                  </div>
+                  <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                      
+                        
+                      </li>
+                    </ul>
+                  </nav><!-- #nav-menu-container -->               
+                </div>
+            </div>
+          </header><!-- #header -->
+
+
+        <!-- start banner Area -->
+        <section class="banner-area" id="home">   
+            <div class="container">
+                <div class="row fullscreen d-flex align-items-center justify-content-start">
+                    <div class="banner-content col-lg-7">
+                        <h6 class="text-white text-uppercase">Date el gusto...</h6>
+                        <h1>
+                            Santa Delish <br>
+                                            
+                        </h1>
+                        <a href="https://wa.me/3426131182" class="primary-btn text-uppercase">Comprar</a>
+                    </div>                                          
+                </div>
+            </div>
+        </section>
+        <!-- End banner Area -->  
+
+        <!-- Start video-sec Area -->
+        <section class="video-sec-area pb-100 pt-40" id="about">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-12 text-center">
+                                <img class="img-fluid" src="{% static 'img/play-icon.png' %}" alt="about" id="about-image" style="border: 2px solid #000;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 video-left">
+                        <h6>Con las mejores materias primas.</h6>
+                        <h1>Envío a domicilio sin cargo en todo Monte Vera <br></h1>
+                        <p><span>Disfrutá de nuestras delicias sin moverte de tu casa</span></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End video-sec Area -->
+        
+        <!-- Start menu Area -->
+        <section class="menu-area section-gap" id="coffee">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-60 col-lg-10">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Horneadas con amor</h1>
+                            <p>Nuestra carta:</p>
+                        </div>
+                    </div>
+                </div>						
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Pack de donas de chocolate</h4>
+                                <p class="price float-right">
+                                    $2000
+                                </p>
+                            </div>
+                            <p style="height: 4em; overflow: hidden;">
+                                Pack de 6 donas cubiertas en chocolate.
+                            </p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Pack de donas glaseadas</h4>
+                                <p class="price float-right">
+                                    $2000
+                                </p>
+                            </div>
+                            <p style="height: 4em; overflow: hidden;">
+                                Pack de 6 donas glaseadas.
+                                 
+                            </p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Pack de donas combinadas</h4>
+                                <p class="price float-right">
+                                    $2000
+                                </p>
+                            </div>
+                            <p style="height: 4em; overflow: hidden;">
+                                Pack de 3 donas glaseadas y 3 donas cubiertas de chocolate.
+                            </p>								
+                        </div>
+                    </div>	
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Rollitos de canela</h4>
+                                <p class="price float-right">
+                                    $0
+                                </p>
+                            </div>
+                            <p style="height: 4em; overflow: hidden;">
+                                Próximamente.
+                            </p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Waffles</h4>
+                                <p class="price float-right">
+                                    $0
+                                </p>
+                            </div>
+                            <p style="height: 4em; overflow: hidden;">
+                                Próximamente.
+                            </p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Pretzels</h4>
+                                <p class="price float-right">
+                                    $0
+                                </p>
+                            </div>
+                            <p style="height: 4em; overflow: hidden;">
+                                Próximamente.
+                            </p>								
+                        </div>
+                    </div>
+                        
+                        </div>    
+                    <!-- Add more menu items here -->
+                    
+                </div>
+            </div>  
+        </section>
+        <!-- End menu Area -->
+        
+        <!-- Start gallery Area -->
+        <section class="gallery-area section-gap" id="gallery">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-60 col-lg-10">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Con la mejor materia prima</h1>
+                            <p>De proveedores únicos.</p>
+                        </div>
+                    </div>
+                </div>                      
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <img class="img-fluid" src="{% static 'img/Document-Name.jpg' %}" alt="imagen1" style="max-width: 500px; height: 500px; object-fit: cover; border: 2px solid #000;">
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <img class="img-fluid" src="{% static 'img/chocolate-doughnuts.jpg' %}" alt="imagen2" style="max-width: 500px; height: 500px; object-fit: cover; border: 2px solid #000;">
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <img class="img-fluid" src="{% static 'img/donitasdelamor.jpg' %}" alt="imagen3" style="max-width: 500px; height: 500px; object-fit: cover; border: 2px solid #000;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        
+        
+        <!-- End gallery Area -->
+        
+        <!-- Start review Area -->
+        <section class="review-area section-gap" id="review">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-60 col-lg-10">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Consultá por nuestros servicios para eventos.</h1>
+                            <p>¡Que a tu boda o cumple no le falte la mesa dulce!</p>
+                        </div>
+                    </div>
+                </div>                      
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <img src="{% static 'img/masa-para-waffles.jpg' %}" alt="Imagen" class="img-fluid" style="border: 2px solid #fff;">
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <!-- End review Area -->
+        
+        <!-- Start blog Area -->
+        <section class="blog-area section-gap" id="blog">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    
+                </div>                      
+                <div class="row">
+                    <!-- Add blog items here -->
+                </div>
+            </div>  
+        </section>
+        <!-- End blog Area -->
+        
+
+        <!-- start footer Area -->       
+        <footer class="footer-area section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Sobre nosotros</h6>
+                            <p>
+                                En Santa Delish, nos apasiona crear momentos dulces y memorables para todos nuestros clientes. Desde nuestros suculentos rollitos de canela hasta nuestras exquisitas donas glaseadas, cada bocado está diseñado para deleitar tus sentidos y despertar tu paladar con una explosión de sabor.
+                            </p>
+                            <p class="footer-text">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Todos los derechos reservados &copy;<script>document.write(new Date().getFullYear());</script>  
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>                                
+                        </div>
+                    </div>
+                    <div class="col-lg-5  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Pedidos</h6>
+                            <p>¡Hablemos!</p>
+                            <div class="" id="mc_embed_signup">
+                        
+                                <a href="https://wa.me/3426131182" class="click-btn btn btn-default">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </a>
+                                        <div style="position: absolute; left: -5000px;">
+                                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                            </div>
+
+                                    <div class="info pt-20"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>                      
+                    <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                        <div class="single-footer-widget">
+                            <h6>Seguinos</h6>
+                            <p>Nuestras redes</p>
+                            <div class="footer-social d-flex align-items-center">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>                          
+                </div>
+            </div>
+        </footer>    
+        <!-- End footer Area -->    
+
+        <script src="{% static 'js/vendor/jquery-2.2.4.min.js' %}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>            
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+            <script src="{% static 'js/easing.min.js' %}"></script>            
+        <script src="{% static 'js/hoverIntent.js' %}"></script>
+        <script src="{% static 'js/superfish.min.js' %}"></script>  
+        <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+        <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>    
+        <script src="{% static 'js/owl.carousel.min.js' %}"></script>           
+        <script src="{% static 'js/jquery.sticky.js' %}"></script>
+        <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>          
+        <script src="{% static 'js/parallax.min.js' %}"></script>  
+        <script src="{% static 'js/waypoints.min.js' %}"></script>
+        <script src="{% static 'js/jquery.counterup.min.js' %}"></script>                    
+        <script src="{% static 'js/mail-script.js' %}"></script>    
+        <script src="{% static 'js/main.js' %}"></script>    
+    </body>
+</html>
